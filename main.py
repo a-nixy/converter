@@ -1,5 +1,5 @@
 """
-THIS IS CONVERTER
+THIS IS A CONVERTER
 """
 
 #convert C to F
@@ -11,5 +11,10 @@ def convertCtoF():
 # convert kms to miles
 def convertKilometersToMiles():
     kms = float(input("Ievadi attālumu: "))
-    miles = round(kms/1.6, 2)
-    print(f"Rezultāts ir: {miles}")
+    if kms > 0:
+        miles = round(kms/1.6, 2)
+        print(f"Rezultāts ir: {miles}")
+    else:
+        print("Vērtība nederīga!")
+
+convertKilometersToMiles()
