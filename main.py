@@ -18,3 +18,14 @@ def convertKilometersToMiles():
         print("Vērtība nederīga!")
 
 convertKilometersToMiles()
+
+#convert Euro to $$$
+def convertEuroToUsd():
+    Eur = float(input("Ievadi summu: "))
+    if Eur > 0:
+        usd = round(Eur * 1.17 , 2)
+        print(f"Summa: {usd}")
+    else:
+        print("Nepareiza summa!")
+
+convertEuroToUsd()
