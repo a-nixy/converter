@@ -2,5 +2,6 @@ this is a converter :3
 
 funkcijas:
 - temperatūras pārveidotājs
-* Distances pārveidotājs 
-* Naudas converter
+- Distances pārveidotājs 
+- Naudas converter
+- pievienota laukuma converter
