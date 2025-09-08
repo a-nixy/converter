@@ -17,7 +17,7 @@ def convertKilometersToMiles():
     else:
         print("Vērtība nederīga!")
 
-convertKilometersToMiles()
+#convertKilometersToMiles()
 
 #convert Euro to $$$
 def convertEuroToUsd():
@@ -28,4 +28,12 @@ def convertEuroToUsd():
     else:
         print("Nepareiza summa!")
 
-convertEuroToUsd()
+#convertEuroToUsd()
+
+#platības convert
+def convertArea():
+    square_m = int(input("Kvadrātmetri: "))
+    ha = square_m / 10000
+    print(f"{square_m} kvadrātmetri ir: {ha} hektāri!")
+
+convertArea()
